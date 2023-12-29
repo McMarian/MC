@@ -156,7 +156,7 @@ a:not([class]) {
     content: url("contents/me.jpg");
     position: absolute;
     z-index: 34;
-    z-index: var(--layer-me-hover);
+    z-index: 1;
     top: 50%;
     left: 50%;
     width: 0; 
