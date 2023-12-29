@@ -156,7 +156,7 @@ a:not([class]) {
     position: absolute;
     z-index: 34;
     z-index: var(--layer-me-hover);
-    top: 100%;
+    top: 50%;
     left: 50%;
     width: 0; 
     height: 0; 
@@ -168,8 +168,8 @@ a:not([class]) {
 }
 .bio_photo:hover::after {
     opacity: 1;
-    width: 100px; 
-    height: 100px; 
+    width: 300px; 
+    height: 300px; 
 }
 .main {
     position: relative;
