@@ -150,6 +150,7 @@ a:not([class]) {
     position: relative;
     display: inline-block; 
     color: #fff;
+    z-index: 9999;
 }
 .bio_photo::after {
     content: url("contents/me.jpg");
