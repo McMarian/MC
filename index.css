@@ -168,7 +168,7 @@ a:not([class]) {
 }
 .bio_photo:hover::after {
     opacity: 1;
-    width: 300px; 
+    width: 301px; 
     height: 300px; 
 }
 .main {
