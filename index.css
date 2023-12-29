@@ -22,7 +22,7 @@ a:not([class]) {
 }
 @font-face {
     font-family: VCR OSD Mono;
-    src: url(/contents/VCROSDMono.woff2) format("woff2"), url(/contents/VCROSDMono.woff2) format("woff");
+    src: url(./contents/VCROSDMono.woff2) format("woff2"), url(./contents/VCROSDMono.woff2) format("woff");
     font-weight: 400;
     font-style: normal;
     font-display:swap;
@@ -279,7 +279,7 @@ body {
 }
 body::after {
     content: "";
-    background: url('contents/effect-artifacts.webp') no-repeat center center fixed; 
+    background: url('./contents/effect-artifacts.webp') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -298,7 +298,7 @@ body::after {
     color: var(--text-secondary); 
 }
 .secondary-text:hover {
-    background-image: url("/contents/rainbow-static.gif"); 
+    background-image: url("./contents/rainbow-static.gif"); 
     color: var(--text-secondary); 
     background-size: cover; 
 }
