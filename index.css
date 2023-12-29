@@ -4,7 +4,7 @@
 body, html, li, p, ul {
     margin: 0;
     padding:0;
-    cursor: url('contents/cursor-default.png'), auto;
+    cursor: url('./contents/cursor-default.png'), auto;
 }
 ul {
     list-style:none
@@ -152,7 +152,7 @@ a:not([class]) {
     color: #fff;
 }
 .bio_photo::after {
-    content: url("/contents/me.jpg");
+    content: url("./contents/me.jpg");
     position: absolute;
     z-index: 34;
     z-index: var(--layer-me-hover);
